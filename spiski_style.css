@@ -1,0 +1,27 @@
+div{                     /*устанавливает отступы блока и рисует рамку*/
+    border-width: 2px;   
+    border-style: solid;
+    margin: 2px;
+   }
+div.second_div{             /*выравнивает дочерние блоки в строку и выравнивает */           
+    display: inline-block;    /*их относительно верха*/
+    width: 30%;
+    vertical-align: top;
+    border-style: none;
+}
+span{                           /*Окрашивает заголовки в цвет*/
+    background-color: violet;
+}
+ul.square{               /* меняет маркер в маркированном списке на квадрат*/
+    list-style: square;
+}
+dt{                     /* дает терминам новый внешний вид*/
+    font-size: 2em;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+}
+.second_ol{                  /* устанавливает для нумерованного списка новый внешний вид*/
+    list-style: armenian;
+    color:red;
+}
