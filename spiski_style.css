@@ -25,3 +25,7 @@ dt{                     /* дает терминам новый внешний �
     list-style: armenian;
     color:red;
 }
+h1{
+    color:green;
+    text-align:center;
+}
